@@ -1,0 +1,10 @@
+1. Instalar docker
+2. Ubicarse en la carpeta .\ServidorSpringInterfacesJson\docker desde la terminal (PowerShell)
+3. Construir la imagen: 
+	docker build -t my-interfaces-mongo .
+4. Una vez hecha, ir a .\ServidorSpringInterfacesJson\mongo-data
+5. Crear y ejecutar un contenedor para acceder a la base de datos mongo: 
+	docker-compose up -d
+	- Esto mantendrá el contendedor vivo si se cierra la ventana del terminal
+6. Ejecutar el programa SpringBoot en el directorio ServidorSpringInterfacesJson con cualquier IDE que
+	entienda JAVA y soporte dependencias maven

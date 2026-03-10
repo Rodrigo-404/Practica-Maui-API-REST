@@ -1,0 +1,7 @@
+services:
+  mongodb:
+    image: my-interfaces-mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - "./data/db:/data/db"

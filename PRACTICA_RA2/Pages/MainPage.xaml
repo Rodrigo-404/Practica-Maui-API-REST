@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PRACTICA_RA2.Pages.MainPage"
+             xmlns:componentes="clr-namespace:PRACTICA_RA2.Components">
+    <Grid RowDefinitions="auto, *, auto" 
+          RowSpacing="20" 
+          
+          Padding="10, 0, 10, 0" 
+          MinimumWidthRequest="360">
+
+        <VerticalStackLayout Grid.Row="0"
+                             Spacing="30"
+                             Padding="8, 0, 8, 0"
+                             MaximumWidthRequest="1000" >
+            <Label Text="Página principal"
+                FontSize="30"
+                FontAttributes="Bold"/>
+            <Grid ColumnDefinitions="*, auto" 
+                  ColumnSpacing="10">
+                <SearchBar Placeholder="Buscar canciones..."
+                            Text="{Binding TextoFiltro}" 
+                            Grid.Column="0"/>
+                <Button Text="+ Agregar Canción"
+                        Style="{StaticResource BotonMenosRedondo}"
+                        Clicked="OnIrANuevaTareaClicked"
+                        Grid.Column="1"/>
+            </Grid>
+        </VerticalStackLayout>
+        <CollectionView x:Name="CollectionView"
+                    Grid.Row="1"
+                    ItemsSource="{Binding CancionesFiltradas}"
+                    SelectionMode="Single" 
+                    SelectionChanged="OnCancionSeleccionada" 
+                    MaximumWidthRequest="1000" >
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                                     Span="2"
+                                     VerticalItemSpacing="8"
+                                     HorizontalItemSpacing="8"/>
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.EmptyView>
+                <Label Text="No hay canciones todavía" Padding="8"/>
+            </CollectionView.EmptyView>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <componentes:TarjetaCancion/>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        <VerticalStackLayout Grid.Row="2" Spacing="10" Padding="50" MaximumWidthRequest="1000">
+            <ActivityIndicator
+                    IsRunning="{Binding EstaOcupado}"
+                    IsVisible="{Binding EstaOcupado}" />
+            <Button Text="Cargar canciones"
+                    Command="{Binding CargarCommand}"
+                    Style="{StaticResource BotonMenosRedondoApagado}"/>
+        </VerticalStackLayout>
+    </Grid>
+    
+</ContentPage>

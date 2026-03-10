@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\pages\\nuevacancionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\pages\\nuevacancionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\viewmodels\\cancionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\viewmodels\\cancionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\services\\cancionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\services\\cancionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\pages\\detallecancionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\pages\\detallecancionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\pages\\nuevacancionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\pages\\nuevacancionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\pages\\infopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\pages\\infopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\models\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\models\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\pages\\detallecancionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\pages\\detallecancionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\components\\tarjetacancion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\components\\tarjetacancion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\globalxmlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\globalxmlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\components\\tarjetacancion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\components\\tarjetacancion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|e:\\_dam\\segundo\\interfaces\\repos\\practica_ra2\\practica_ra2\\pages\\infopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C464B97-EF5A-4018-94A3-3E3E4E20BC70}|PRACTICA_RA2\\PRACTICA_RA2.csproj|solutionrelative:practica_ra2\\pages\\infopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 186,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TarjetaCancion.xaml",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Components\\TarjetaCancion.xaml",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Components\\TarjetaCancion.xaml",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Components\\TarjetaCancion.xaml",
+              "RelativeToolTip": "PRACTICA_RA2\\Components\\TarjetaCancion.xaml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAADgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T19:00:28.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CancionesViewModel.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\ViewModels\\CancionesViewModel.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\ViewModels\\CancionesViewModel.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\ViewModels\\CancionesViewModel.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\ViewModels\\CancionesViewModel.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAgwHMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T19:04:26.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TarjetaCancion.xaml.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Components\\TarjetaCancion.xaml.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Components\\TarjetaCancion.xaml.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Components\\TarjetaCancion.xaml.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\Components\\TarjetaCancion.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T19:03:28.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NuevaCancionPage.xaml.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\NuevaCancionPage.xaml.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Pages\\NuevaCancionPage.xaml.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\NuevaCancionPage.xaml.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\Pages\\NuevaCancionPage.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:00:51.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetalleCancionPage.xaml.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\DetalleCancionPage.xaml.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Pages\\DetalleCancionPage.xaml.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\DetalleCancionPage.xaml.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\Pages\\DetalleCancionPage.xaml.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwAcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T11:19:18.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetalleCancionPage.xaml",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\DetalleCancionPage.xaml",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Pages\\DetalleCancionPage.xaml",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\DetalleCancionPage.xaml",
+              "RelativeToolTip": "PRACTICA_RA2\\Pages\\DetalleCancionPage.xaml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T19:00:02.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "PRACTICA_RA2\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-13T13:05:29.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "PRACTICA_RA2\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-13T10:23:04.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CancionesService.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Services\\CancionesService.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Services\\CancionesService.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Services\\CancionesService.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\Services\\CancionesService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T12:05:09.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Pages\\MainPage.xaml",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "PRACTICA_RA2\\Pages\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T19:00:03.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\App.xaml.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\App.xaml.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T19:49:05.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\App.xaml",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\App.xaml",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\App.xaml",
+              "RelativeToolTip": "PRACTICA_RA2\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-13T08:23:05.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InfoPage.xaml",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\InfoPage.xaml",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Pages\\InfoPage.xaml",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\InfoPage.xaml",
+              "RelativeToolTip": "PRACTICA_RA2\\Pages\\InfoPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T19:00:00.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:29:31.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NuevaCancionPage.xaml",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\NuevaCancionPage.xaml",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Pages\\NuevaCancionPage.xaml",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\NuevaCancionPage.xaml",
+              "RelativeToolTip": "PRACTICA_RA2\\Pages\\NuevaCancionPage.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T19:00:04.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cancion.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Models\\Cancion.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Models\\Cancion.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Models\\Cancion.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\Models\\Cancion.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T19:00:23.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\MauiProgram.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\MauiProgram.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\MauiProgram.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T19:00:15.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\AppShell.xaml",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\AppShell.xaml",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\AppShell.xaml",
+              "RelativeToolTip": "PRACTICA_RA2\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-13T08:02:53.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InfoPage.xaml.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\InfoPage.xaml.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\Pages\\InfoPage.xaml.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\Pages\\InfoPage.xaml.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\Pages\\InfoPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:19:15.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\AppShell.xaml.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\AppShell.xaml.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T18:59:46.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GlobalXmlns.cs",
+              "DocumentMoniker": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\GlobalXmlns.cs",
+              "RelativeDocumentMoniker": "PRACTICA_RA2\\GlobalXmlns.cs",
+              "ToolTip": "E:\\_DAM\\SEGUNDO\\INTERFACES\\repos\\PRACTICA_RA2\\PRACTICA_RA2\\GlobalXmlns.cs",
+              "RelativeToolTip": "PRACTICA_RA2\\GlobalXmlns.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T18:59:29.606Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

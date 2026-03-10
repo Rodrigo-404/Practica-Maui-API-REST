@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Border xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PRACTICA_RA2.Components.TarjetaCancion"
+             Style="{StaticResource FondoTarjeta}"
+             HorizontalOptions="Fill"
+             Padding="{Binding PaddingTarjeta}">
+    <!--WidthRequest="{Binding Source={RelativeSource AncestorType={x:Type CollectionView}}, Path=Width}"-->
+
+    <Grid ColumnDefinitions="*, auto"
+          VerticalOptions="Center">
+        <Grid Grid.Column="0"
+              RowDefinitions="auto,auto,auto, auto" 
+              Margin="0, 0, 0, 0" 
+              RowSpacing="{Binding PaddingElementos}">
+            <Label
+                Grid.Row="0"
+                Style="{StaticResource EtiquetaForm}"
+                Text="{Binding Titulo}"
+                FontSize="{Binding TamanoTexto}"
+                FontAttributes="Bold"
+                LineBreakMode="TailTruncation"
+                MaxLines="1"
+            />
+            <Label
+                Grid.Row="1"
+                Style="{StaticResource EtiquetaForm}"
+                Text="{Binding ArtistasString}"
+                FontSize="{Binding TamanoTexto}"
+                FontAttributes="Bold"
+                LineBreakMode="TailTruncation"
+                MaxLines="1"
+                />
+            <Label
+                Grid.Row="2"
+                Style="{StaticResource EtiquetaForm}"
+                Text="{Binding Duracion}"
+                FontSize="{Binding TamanoTexto}"
+                FontAttributes="Bold"
+            />
+
+            <Path Grid.Row="3"
+                    x:Name="HeartShape"
+                    HorizontalOptions="Start"
+                    WidthRequest="{Binding MagnitudCorazon}"
+                    HeightRequest="{Binding MagnitudCorazon}"
+                    Stroke="{StaticResource VerdeClaroSpotify}"
+                    StrokeThickness="2"
+                    Aspect="Uniform">
+
+                <Path.Triggers>
+                    <DataTrigger TargetType="Path"
+                                Binding="{Binding EsFavorita}"
+                                Value="true">
+                        <Setter Property="Fill" Value="{StaticResource VerdeClaroSpotify}"/>
+                    </DataTrigger>
+                    <DataTrigger TargetType="Path"
+                                Binding="{Binding EsFavorita}"
+                                Value="false">
+                        <Setter Property="Fill" Value="Transparent"/>
+                    </DataTrigger>
+                </Path.Triggers>
+
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="25,45" IsClosed="True">
+                            <BezierSegment 
+                                Point1="5,30"
+                                Point2="0,20"
+                                Point3="10,12" />
+                            <BezierSegment 
+                                Point1="16,7"
+                                Point2="22,11"
+                                Point3="25,15" />
+                            <BezierSegment 
+                                Point1="28,11"
+                                Point2="34,7"
+                                Point3="40,12" />
+                            <BezierSegment 
+                                Point1="50,20"
+                                Point2="45,30"
+                                Point3="25,45" />
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+        </Grid>
+        <Border Grid.Column="1"
+                HeightRequest="{Binding MagnitudImagen}"
+                WidthRequest="{Binding MagnitudImagen}"
+                StrokeShape="RoundRectangle 10"
+                StrokeThickness="0">
+            <Image Source="{Binding UrlPortada}" 
+                   Aspect= "AspectFill"
+                   HorizontalOptions="Fill"
+                   VerticalOptions="Fill"/>
+        </Border>
+
+    </Grid>
+    
+</Border>

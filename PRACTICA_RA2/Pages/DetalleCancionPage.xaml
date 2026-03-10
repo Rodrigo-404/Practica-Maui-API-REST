@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PRACTICA_RA2.Pages.DetalleCancionPage">
+    <Grid RowDefinitions="auto, *" 
+          RowSpacing="30"
+          MinimumWidthRequest="360">
+        <FlexLayout  Grid.Row="0" 
+                     JustifyContent="SpaceBetween" 
+                     MaximumWidthRequest="620"
+                     Padding="10, 0, 10, 0">
+            <Label 
+                   Text="Editar canción"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            <Button Text="Eliminar Canción"
+                    Style="{StaticResource BotonMenosRedondoRojo}"
+                    Clicked="OnEliminarClicked"/>
+        </FlexLayout>
+        <Grid Grid.Row="1" 
+          RowDefinitions="auto, *"
+          RowSpacing="10">
+            <Button Grid.Row="0" 
+                Style="{StaticResource BotonMenosRedondoApagado}"
+                HorizontalOptions="Center"
+                Text="Selecciona la imagen de la portada"
+                Clicked="OnPickerClicked"/>
+            <ScrollView  Grid.Row="1" Padding="10, 0, 10, 50">
+                <VerticalStackLayout MaximumWidthRequest="600" Spacing="20">
+                    <VerticalStackLayout Spacing="5">
+                        <Border WidthRequest="250"
+                            HeightRequest="250"
+                            StrokeShape="RoundRectangle, 10"
+                            StrokeThickness="0">
+                            <Image Source="{Binding UrlPortada}" 
+                               Aspect= "AspectFill"/>
+                        </Border>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Style="{StaticResource EtiquetaForm}"
+                           Text="Introduce el título" />
+                        <Entry Placeholder="Título" 
+                           Text="{Binding Titulo}"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Style="{StaticResource EtiquetaForm}"
+                           Text="Introduce los artistas" />
+                        <VerticalStackLayout x:Name="ContenedorArtistas" 
+                                        Spacing="10">
+                            <Grid ColumnDefinitions="*, auto" ColumnSpacing="10">
+                                <Entry Grid.Column="0"
+                                   Placeholder="Nombre del artista" />
+                                <Button Grid.Column="1"
+                                    Style="{StaticResource BotonRedondo}"
+                                    Text="+" 
+                                    WidthRequest="0" 
+                                    HeightRequest="0"
+                                    Clicked="AgregarArtista"/>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Spacing="15">
+                        <Label Style="{StaticResource EtiquetaForm}"
+                               Text="¿Es favorita?"/>
+                        <Path Grid.Row="3"
+                                x:Name="HeartShape"
+                                HorizontalOptions="Start"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                Stroke="{StaticResource VerdeClaroSpotify}"
+                                StrokeThickness="2"
+                                Aspect="Uniform">
+                            <Path.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                            </Path.GestureRecognizers>
+                            <Path.Triggers>
+                                <DataTrigger TargetType="Path"
+                                            Binding="{Binding EsFavorita}"
+                                            Value="true">
+                                    <Setter Property="Fill" Value="{StaticResource VerdeClaroSpotify}"/>
+                                </DataTrigger>
+                                <DataTrigger TargetType="Path"
+                                            Binding="{Binding EsFavorita}"
+                                            Value="false">
+                                    <Setter Property="Fill" Value="Transparent"/>
+                                </DataTrigger>
+                            </Path.Triggers>
+
+                            <Path.Data>
+                                <PathGeometry>
+                                    <PathFigure StartPoint="25,45" IsClosed="True">
+                                        <BezierSegment 
+                                            Point1="5,30"
+                                            Point2="0,20"
+                                            Point3="10,12" />
+                                        <BezierSegment 
+                                            Point1="16,7"
+                                            Point2="22,11"
+                                            Point3="25,15" />
+                                        <BezierSegment 
+                                            Point1="28,11"
+                                            Point2="34,7"
+                                            Point3="40,12" />
+                                        <BezierSegment 
+                                            Point1="50,20"
+                                            Point2="45,30"
+                                            Point3="25,45" />
+                                    </PathFigure>
+                                </PathGeometry>
+                            </Path.Data>
+                        </Path>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Style="{StaticResource EtiquetaForm}"
+                           Text="Introduce la duración" />
+                        <HorizontalStackLayout Spacing="10">
+                            <Entry x:Name="minutosEntry" 
+                               WidthRequest="50" 
+                               Placeholder="MM" 
+                               Keyboard="Numeric" 
+                               HorizontalTextAlignment="Center"/>
+                            <Label Text=":" 
+                               VerticalOptions="Center"/>
+                            <Entry x:Name="segundosEntry" 
+                               WidthRequest="50" 
+                               Placeholder="SS" 
+                               Keyboard="Numeric"
+                               HorizontalTextAlignment="Center"/>
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Spacing="5">
+                        <Button Text="Guardar cambios" 
+                                Style="{StaticResource BotonMenosRedondo}"
+                                Clicked="OnGuardarClicked"/>
+                        <Button Text="Cancelar cambios"
+                                Style="{StaticResource BotonMenosRedondoApagado}"
+                                Clicked="OnCancelarClicked"/>
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>

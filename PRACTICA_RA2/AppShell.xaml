@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PRACTICA_RA2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PRACTICA_RA2"
+    xmlns:pages="clr-namespace:PRACTICA_RA2.Pages"
+    Title="PRACTICA_RA2">
+
+    <FlyoutItem Title="Pantalla principal" Icon="home.png">
+        <ShellContent Route="main"
+                      ContentTemplate="{DataTemplate pages:MainPage}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Nueva canción" Icon="info.png">
+        <ShellContent Route="nueva"
+                  ContentTemplate="{DataTemplate pages:NuevaCancionPage}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Tus estadísticas" Icon="info.png">
+        <ShellContent Route="acerca"
+                  ContentTemplate="{DataTemplate pages:InfoPage}"/>
+    </FlyoutItem>
+
+</Shell>
